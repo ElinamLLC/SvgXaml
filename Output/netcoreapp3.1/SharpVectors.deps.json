@@ -1,0 +1,147 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SharpVectors/1.0.0": {
+        "dependencies": {
+          "AvalonEdit": "6.0.1",
+          "Microsoft.CodeAnalysis.FxCopAnalyzers": "3.3.0",
+          "SharpVectors.Reloaded": "1.6.0",
+          "SharpVectors.ShellFileDialogs": "1.0.0.0"
+        },
+        "runtime": {
+          "SharpVectors.dll": {}
+        }
+      },
+      "AvalonEdit/6.0.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.dll": {
+            "assemblyVersion": "6.0.1.278",
+            "fileVersion": "6.0.1.278"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.FxCopAnalyzers/3.3.0": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.VersionCheckAnalyzer": "3.3.0",
+          "Microsoft.CodeQuality.Analyzers": "3.3.0",
+          "Microsoft.NetCore.Analyzers": "3.3.0",
+          "Microsoft.NetFramework.Analyzers": "3.3.0"
+        }
+      },
+      "Microsoft.CodeAnalysis.VersionCheckAnalyzer/3.3.0": {},
+      "Microsoft.CodeQuality.Analyzers/3.3.0": {},
+      "Microsoft.NetCore.Analyzers/3.3.0": {},
+      "Microsoft.NetFramework.Analyzers/3.3.0": {},
+      "SharpVectors.Reloaded/1.6.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/SharpVectors.Converters.Wpf.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          },
+          "lib/netcoreapp3.1/SharpVectors.Core.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          },
+          "lib/netcoreapp3.1/SharpVectors.Css.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          },
+          "lib/netcoreapp3.1/SharpVectors.Dom.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          },
+          "lib/netcoreapp3.1/SharpVectors.Model.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          },
+          "lib/netcoreapp3.1/SharpVectors.Rendering.Gdi.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          },
+          "lib/netcoreapp3.1/SharpVectors.Rendering.Wpf.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          },
+          "lib/netcoreapp3.1/SharpVectors.Runtime.Wpf.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          }
+        }
+      },
+      "SharpVectors.ShellFileDialogs/1.0.0.0": {
+        "runtime": {
+          "SharpVectors.ShellFileDialogs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SharpVectors/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AvalonEdit/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JmRwKMDRUUkUGLQmTtIHiSgFSQH9567b2/55Wa/gQp+ZtxQN+mnl5Qt6B/Kgz56FMnnDyE/fV23r7J2SV+NP7g==",
+      "path": "avalonedit/6.0.1",
+      "hashPath": "avalonedit.6.0.1.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.FxCopAnalyzers/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k3Icqx8kc+NrHImuiB8Jc/wd32Xeyd2B/7HOR5Qu9pyKzXQ4ikPeBAwzG2FSTuYhyIuNWvwL5k9yYBbbVz6w9w==",
+      "path": "microsoft.codeanalysis.fxcopanalyzers/3.3.0",
+      "hashPath": "microsoft.codeanalysis.fxcopanalyzers.3.3.0.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.VersionCheckAnalyzer/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xjLM3DRFZMan3nQyBQEM1mBw6VqQybi4iMJhMFW6Ic1E1GCvqJR3ABOwEL7WtQjDUzxyrGld9bASnAos7G/Xyg==",
+      "path": "microsoft.codeanalysis.versioncheckanalyzer/3.3.0",
+      "hashPath": "microsoft.codeanalysis.versioncheckanalyzer.3.3.0.nupkg.sha512"
+    },
+    "Microsoft.CodeQuality.Analyzers/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zZ3miq6u22UFQKhfJyLnVEJ+DgeOopLh3eKJnKAcOetPP2hiv3wa7kHZlBDeTvtqJQiAQhAVbttket8XxjN1zw==",
+      "path": "microsoft.codequality.analyzers/3.3.0",
+      "hashPath": "microsoft.codequality.analyzers.3.3.0.nupkg.sha512"
+    },
+    "Microsoft.NetCore.Analyzers/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6qptTHUu1Wfszuf83NhU0IoAb4j7YWOpJs6oc6S4G/nI6aGGWKH/Xi5Vs9L/8lrI74ijEEzPcIwafSQW5ASHtA==",
+      "path": "microsoft.netcore.analyzers/3.3.0",
+      "hashPath": "microsoft.netcore.analyzers.3.3.0.nupkg.sha512"
+    },
+    "Microsoft.NetFramework.Analyzers/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JTfMic5fEFWICePbr7GXOGPranqS9Qxu2U/BZEcnnGbK1SFW8TxRyGp6O1L52xsbfOdqmzjc0t5ubhDrjj+Xpg==",
+      "path": "microsoft.netframework.analyzers/3.3.0",
+      "hashPath": "microsoft.netframework.analyzers.3.3.0.nupkg.sha512"
+    },
+    "SharpVectors.Reloaded/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1YyfNpC9ARGQN2rQeEebhIPErcMCOxGxNL/oLcnKbnDI+OEgDzsd4efIk54Ac3R0FvlOC0hx3q4tLhRWsC1XIg==",
+      "path": "sharpvectors.reloaded/1.6.0",
+      "hashPath": "sharpvectors.reloaded.1.6.0.nupkg.sha512"
+    },
+    "SharpVectors.ShellFileDialogs/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
